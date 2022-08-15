@@ -36,5 +36,9 @@ class PoliceCar(Car):
     is_police = True
 
 my_car_1 = TownCar(56,'purple','Colt',False)
+my_car_2 = SportCar(76,'red','Tesla',False)
+my_car_3 = WorkCar(46,'blue','Lada',False)
+my_car_4 = PoliceCar(96,'white','Jeep',True)
 my_car_1.turn('right')
-print(my_car_1.n, my_car_1.c,my_car_1.s,my_car_1.ip)
+my_car_2.control()
+print(my_car_1.n, my_car_2.c,my_car_3.s,my_car_4.ip)
